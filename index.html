@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <h2 class="text-center">Quote Generator</h2>
+    <div class="box">
+      <div class="container">
+        <div class="quotes">
+          <p id="quoteText">
+            The Road to Wining in finances is to save very often
+          </p>
+          <p id="Quoter">Dave Ramesey</p>
+          <div class="buttons">
+            <button class="quotebtn" onclick="prevQuote();">
+              Previous Quote
+            </button>
+            <button class="quotebtn" onclick="nextQuote();">Next Quote</button>
+          </div>
+        </div>
+        <fieldset>
+          <input
+            type="text"
+            name=""
+            id="Equoter"
+            placeholder="name of quoter"
+          />
+          <input type="text" placeholder="Type in the quote" id="Equote" />
+          <button id="AddQuote" onclick="addQuote()">Add Your Quote</button>
+        </fieldset>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,64 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.box {
+  margin-top: 10vh;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-top: 60px;
+}
+
+fieldset {
+  display: flex;
+  width: max-content;
+  flex-direction: column;
+  padding: 20px;
+  margin: auto;
+  margin-top: 60px;
+  justify-content: center;
+  align-items: center;
+}
+#Equote,
+#Equoter {
+  margin: 15px 0;
+}
+.quotes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 1.2rem;
+  width: 300px;
+  height: 350px;
+  justify-content: center;
+  border: 1px solid grey;
+  margin: 0 auto;
+}
+
+#quoteText {
+  height: 100px;
+  padding: 20px;
+}
+#Quoter {
+  height: 100px;
+}
+.buttons {
+  display: flex;
+}
+
+.quotebtn {
+  margin: 40px 5px;
+}
+
+.text-center {
+  text-align: center;
+}
